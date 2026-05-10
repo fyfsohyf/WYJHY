@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山川壮丽 - 自由行纪</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">自由行纪</div>
+        <div class="nav-links">
+            <a href="index.html">首页</a><a href="mountains.html" class="active">山川</a><a href="islands.html">海岛</a><a href="forests.html">森林</a><a href="guide.html">指南</a><a href="contact.html">留言</a>
+        </div>
+    </nav>
+    
+
+    <div class="carousel-container">
+        <div class="carousel-wrapper">
+            
+        <div class="slide active">
+            <img src="images/1.jpg" alt="Travel Banner 1">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/2.jpg" alt="Travel Banner 2">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/3.jpg" alt="Travel Banner 3">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    
+
+<main>
+    <div class="container">
+        <h1 class="page-title">山川之美</h1>
+        
+        <!-- 模块1: 左图右文 -->
+        <section class="zigzag-row">
+            <div class="zigzag-img">
+                <img src="images/8.jpg" alt="Alps">
+            </div>
+            <div class="zigzag-text">
+                <h2>阿尔卑斯山脉</h2>
+                <p>阿尔卑斯山脉是欧洲最高的山脉，横跨八个国家。这里的雪山终年不化，滑雪场世界闻名。每当清晨的第一缕阳光洒在山顶，金色的光辉让人心生敬畏。</p>
+                <div class="tag-box"><span>滑雪</span><span>徒步</span><span>摄影</span></div>
+            </div>
+        </section>
+
+        <!-- 模块2: 右图左文 -->
+        <section class="zigzag-row reverse">
+            <div class="zigzag-img">
+                <img src="images/9.jpg" alt="Rocky Mountains">
+            </div>
+            <div class="zigzag-text">
+                <h2>落基山脉</h2>
+                <p>北美洲的脊梁，落基山脉以其粗犷和野性著称。这里有翡翠般的湖泊点缀在群山之间，野生动物自由奔跑，是自然爱好者的终极目的地。</p>
+                <div class="tag-box"><span>露营</span><span>自驾</span><span>探险</span></div>
+            </div>
+        </section>
+
+        <!-- 模块3: 左图右文 -->
+        <section class="zigzag-row">
+            <div class="zigzag-img">
+                <img src="images/10.jpg" alt="Himalayas">
+            </div>
+            <div class="zigzag-text">
+                <h2>喜马拉雅山脉</h2>
+                <p>世界屋脊，众神居所。喜马拉雅不仅仅是一座山脉，更是一种信仰。珠穆朗玛峰的巍峨，让无数登山者魂牵梦绕，挑战人类极限。</p>
+                <div class="tag-box"><span>登山</span><span>朝圣</span><span>极限</span></div>
+            </div>
+        </section>
+    </div>
+</main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>自由行纪</h3>
+                <p>致力于发现地球上最美的角落，为旅行者提供纯粹的视觉灵感。</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <a href="index.html">回到首页</a>
+                <a href="guide.html">旅行指南</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <div class="footer-section">
+                <h3>关注我们</h3>
+                <p>微信公众号：FreeTravel2026</p>
+                <p>微博：@自由行纪官方</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 自由行纪 Tourism. All Rights Reserved.
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

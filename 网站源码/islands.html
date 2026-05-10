@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>碧海蓝天 - 自由行纪</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">自由行纪</div>
+        <div class="nav-links">
+            <a href="index.html">首页</a><a href="mountains.html">山川</a><a href="islands.html" class="active">海岛</a><a href="forests.html">森林</a><a href="guide.html">指南</a><a href="contact.html">留言</a>
+        </div>
+    </nav>
+    
+
+    <div class="carousel-container">
+        <div class="carousel-wrapper">
+            
+        <div class="slide active">
+            <img src="images/1.jpg" alt="Travel Banner 1">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/2.jpg" alt="Travel Banner 2">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/3.jpg" alt="Travel Banner 3">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    
+
+<main>
+    <!-- 模块1: 全宽视差背景 -->
+    <section class="full-parallax" style="background-image: url('images/15.jpg');">
+        <div class="overlay-text">
+            <h2>马尔代夫</h2>
+            <p>上帝抛洒在印度洋上的珍珠</p>
+        </div>
+    </section>
+
+    <!-- 模块2: 错位层叠布局 -->
+    <section class="overlap-section">
+        <div class="container relative-box">
+            <div class="overlap-img">
+                <img src="images/11.jpg" alt="Beach View">
+            </div>
+            <div class="overlap-card">
+                <h3>大溪地 - 波拉波拉</h3>
+                <p>这里有七种颜色的海水，有最奢华的水上屋。在波拉波拉，时间仿佛静止，剩下的只有海浪的声音和微风的轻抚。</p>
+                <p>适合蜜月旅行的终极圣地，享受二人世界的宁静。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 模块3: 网格画廊 -->
+    <section class="island-grid">
+        <div class="container">
+            <h2>更多岛屿推荐</h2>
+            <div class="grid-3">
+                <div class="grid-item">
+                    <img src="images/12.jpg" alt="Bali">
+                    <div class="caption">巴厘岛 - 众神之岛</div>
+                </div>
+                <div class="grid-item">
+                    <img src="images/13.jpg" alt="Santorini">
+                    <div class="caption">圣托里尼 - 蓝白世界</div>
+                </div>
+                <div class="grid-item">
+                    <img src="images/14.jpg" alt="Phuket">
+                    <div class="caption">普吉岛 - 安达曼明珠</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>自由行纪</h3>
+                <p>致力于发现地球上最美的角落，为旅行者提供纯粹的视觉灵感。</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <a href="index.html">回到首页</a>
+                <a href="guide.html">旅行指南</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <div class="footer-section">
+                <h3>关注我们</h3>
+                <p>微信公众号：FreeTravel2026</p>
+                <p>微博：@自由行纪官方</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 自由行纪 Tourism. All Rights Reserved.
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

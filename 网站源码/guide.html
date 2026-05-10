@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅行指南 - 自由行纪</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">自由行纪</div>
+        <div class="nav-links">
+            <a href="index.html">首页</a><a href="mountains.html">山川</a><a href="islands.html">海岛</a><a href="forests.html">森林</a><a href="guide.html" class="active">指南</a><a href="contact.html">留言</a>
+        </div>
+    </nav>
+    
+
+    <div class="carousel-container">
+        <div class="carousel-wrapper">
+            
+        <div class="slide active">
+            <img src="images/1.jpg" alt="Travel Banner 1">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/2.jpg" alt="Travel Banner 2">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/3.jpg" alt="Travel Banner 3">
+            <div class="caption">
+                <h2>探索未知的世界</h2>
+                <p>每一次出发，都是灵魂的洗礼</p>
+            </div>
+        </div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    
+
+<main>
+    <div class="container">
+        <h1 class="page-title">出行准备与建议</h1>
+
+        <!-- 模块1: 最佳旅行时间表 (表格) -->
+        <section class="guide-section">
+            <h2>全球目的地最佳旅行时间</h2>
+            <div class="table-responsive">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>目的地</th>
+                            <th>最佳月份</th>
+                            <th>建议天数</th>
+                            <th>主要特色</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>日本 (Japan)</td>
+                            <td>3月-5月, 10月-11月</td>
+                            <td>7-10天</td>
+                            <td>樱花, 红叶, 温泉</td>
+                        </tr>
+                        <tr>
+                            <td>新西兰 (New Zealand)</td>
+                            <td>11月-次年3月</td>
+                            <td>12-15天</td>
+                            <td>自驾, 徒步, 极限运动</td>
+                        </tr>
+                        <tr>
+                            <td>冰岛 (Iceland)</td>
+                            <td>6月-8月, 9月-3月</td>
+                            <td>7-10天</td>
+                            <td>午夜阳光, 极光, 瀑布</td>
+                        </tr>
+                        <tr>
+                            <td>泰国 (Thailand)</td>
+                            <td>11月-2月</td>
+                            <td>5-7天</td>
+                            <td>海岛, 寺庙, 美食</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 模块2: 装备清单 (列表布局) -->
+        <section class="guide-section bg-light">
+            <h2>必备装备清单</h2>
+            <div class="checklist-grid">
+                <div class="check-item">
+                    <h3>证件类</h3>
+                    <ul>
+                        <li>护照 & 签证复印件</li>
+                        <li>驾照 & 国际驾照认证件</li>
+                        <li>酒店预订确认单</li>
+                    </ul>
+                </div>
+                <div class="check-item">
+                    <h3>电子类</h3>
+                    <ul>
+                        <li>万能转换插头</li>
+                        <li>大容量充电宝</li>
+                        <li>相机 & 备用SD卡</li>
+                    </ul>
+                </div>
+                <div class="check-item">
+                    <h3>生活类</h3>
+                    <ul>
+                        <li>速干衣裤</li>
+                        <li>急救药品包</li>
+                        <li>防晒霜 & 墨镜</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 模块3: 摄影建议 -->
+        <section class="guide-section">
+            <div class="flex-row">
+                <div class="text-part">
+                    <h2>旅行摄影小贴士</h2>
+                    <p>1. <strong>黄金时刻</strong>：日出后一小时和日落前一小时光线最柔和。</p>
+                    <p>2. <strong>构图法则</strong>：利用三分法，将主体放在交叉点上。</p>
+                    <p>3. <strong>融入人物</strong>：让人作为风景的点缀，增加照片的故事感。</p>
+                </div>
+                <div class="img-part">
+                    <img src="images/19.jpg" alt="Photography">
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>自由行纪</h3>
+                <p>致力于发现地球上最美的角落，为旅行者提供纯粹的视觉灵感。</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <a href="index.html">回到首页</a>
+                <a href="guide.html">旅行指南</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <div class="footer-section">
+                <h3>关注我们</h3>
+                <p>微信公众号：FreeTravel2026</p>
+                <p>微博：@自由行纪官方</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 自由行纪 Tourism. All Rights Reserved.
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
