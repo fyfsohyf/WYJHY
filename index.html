@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页 - 我有江湖瘾</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">我有江湖瘾</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">首页</a><a href="mountains.html">长安</a><a href="islands.html">门派</a><a href="forests.html">长安日报</a><a href="guide.html">指南</a><a href="contact.html">留言</a>
+        </div>
+    </nav>
+    
+
+    <div class="carousel-container">
+        <div class="carousel-wrapper">
+            
+       <div class="slide active">
+            <img src="images/wyjhy.jpg" alt="Travel Banner 1">
+            <div class="caption">
+                <h2></h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/ssc.jpg" alt="Travel Banner 2">
+            <div class="caption">
+                <h2>四时春</h2>
+                <p>青山在抱自为邻，风转云舒总作新。</p>
+                <p>已识云台高百尺，仍怜春草第一茎。</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/qybj.jpg" alt="Travel Banner 3">
+            <div class="caption">
+                <h2>期言镖局</h2>
+                <p>碎玉伶仃染血尘，宝剑凌冽定乾坤。</p>
+                <p>钦此一局天下事，便琢霸业春秋间。</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/jzcb.jpg" alt="Travel Banner 4">
+            <div class="caption">
+                <h2>江左漕帮</h2>
+                <p>霓虹黯日浪卷雪，三仓满聚歌钟彻。</p>
+                <p>莫道繁华天所赐，江左漕帮鼎长安。</p>
+            </div>
+        </div>
+         <div class="slide">
+            <img src="images/tfj.jpg" alt="Travel Banner 5">
+            <div class="caption">
+                <h2>天府集</h2>
+                <p>红汤盖碗金不欠，灶王庙里也千年。</p>
+                <p>莫问客从何处来，一筷河山入晚烟。</p>
+            </div>
+        </div>
+         <div class="slide">
+            <img src="images/wcx.jpg" alt="Travel Banner 6">
+            <div class="caption">
+                <h2>万重相</h2>
+                <p>叠石深处隐宫商，一砚青灰泼天光。</p>
+                <p>已惯笙歌彻夜沸，犹待空谷有兰香。</p>
+            </div>
+        </div>
+         <div class="slide">
+            <img src="images/cyq.jpg" alt="Travel Banner 7">
+            <div class="caption">
+                <h2>驰义旗</h2>
+                <p>皇城北署炉火明，红星乱舞紫烟横。</p>
+                <p>横刀出鞘寒光动，陌刀列阵鬼神惊。</p>
+                <p>浴火方成百炼刃，亦铸无名赴死身。</p>
+                <p>若问长安谁可恃，锋镝尽处是升平。</p>
+            </div>
+        </div>
+         <div class="slide">
+            <img src="images/dsf.jpg" alt="Travel Banner 8">
+            <div class="caption">
+                <h2>渡世舫</h2>
+                <p>舟行碧水系魂长，螺钿流光映无常。</p>
+                <p>一舫渡尽生死客，不问归程问斜阳。</p>
+            </div>
+        </div>
+         <div class="slide">
+            <img src="images/sx.jpg" alt="Travel Banner 8">
+            <div class="caption">
+                <h2>散修</h2>
+                <p>人生到处知何似，</p>
+                <p>应似飞鸿踏雪泥。</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/kjk.jpg" alt="Travel Banner 10">
+            <div class="caption">
+                <h2>███</h2>
+                <p>吾 生 也 有 涯，</p>
+                <p>而 知 也 无 涯。</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/gf.jpg" alt="Travel Banner 8">
+            <div class="caption">
+                <h2>官府</h2>
+                <p>清心为治本，直道是身谋。</p>
+                <p>秀干终成栋，精钢不作钩。</p>
+            </div>
+        </div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span><span class="dot" onclick="currentSlide(4)"></span><span class="dot" onclick="currentSlide(5)"></span><span class="dot" onclick="currentSlide(6)"></span><span class="dot" onclick="currentSlide(7)"></span><span class="dot" onclick="currentSlide(8)"></span><span class="dot" onclick="currentSlide(9)"></span><span class="dot" onclick="currentSlide(10)"></span><span class="dot" onclick="currentSlide(11)"></span>
+        </div>
+    </div>
+    
+
+<main>
+    <!-- 模块1: 核心理念 (居中大字 + 图文混排) -->
+    <section class="section-intro">
+        <div class="container">
+            <h2 class="section-title">到长安所为何事？</h2>
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <p>此世非古非今，亦古亦今。<p>
+                        <p>人坐琉璃盏中，盏非玉，乃高精玄晶所铸；人踏飞剑而行，剑非铁，乃电子流火所化。</p>
+                        <p>高楼如塔，灯如星河，然街巷之间，仍有茶肆棋社，檐角挂铃，风过有声。</p>
+                        <p>而你此去之地，名曰——</p>
+                        <p>长安。</p>
+                </div>
+                <div class="intro-img">
+                    <img src="images/zj.jpg" alt="Intro Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 模块2: 热门目的地 (三列卡片布局) -->
+    <section class="section-cards">
+        <div class="container">
+            <h2 class="section-title">当季热门</h2>
+            <div class="card-grid">
+
+                <div class="card">
+                    <div class="card-img-box"><img src="images/yyh.jpg" alt="Destination 2"></div>
+                    <div class="card-content">
+                        <h3>夜游会</h3>
+                        <p>是夜华灯初上，街巷通明，诚邀诸位共赴这场「长安夜游会」，一展侠者风采，亦享市井之乐。</p>
+                    </div>
+                </div>
+                        
+
+                <div class="card">
+                    <div class="card-img-box"><img src="images/wldh.jpg" alt="Destination 2"></div>
+                    <div class="card-content">
+                        <h3>武林大会</h3>
+                        <p>天地实小，江湖广大，赤子之心一鸣惊人，千岁集成万年悠悠，愿诸君来此，且听剑鸣！</p>
+                    </div>
+                </div>
+                                
+                <div class="card">
+                    <div class="card-img-box"><img src="images/cwzbs.jpg" alt="Destination 1"></div>
+                    <div class="card-content">
+                        <h3>厨王争霸赛</h3>
+                        <p>近日，天府集察觉到一些侠士热情高涨，筹备了一场——〖厨王争霸赛〗！</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img-box"><img src="images/cftn.jpg" alt="Destination 3"></div>
+                    <div class="card-content">
+                        <h3>重返童年</h3>
+                        <p>你回到了过去，有没有什么想重新来过的事情？当你用现在的目光，重新踏一遍儿时的路，或许你会发现某些事早已释怀，又或许你会发现有些东西从未走远。</p>
+                    </div>
+                </div>
+
+       
+                <div class="card">
+                    <div class="card-img-box"><img src="images/jqqd.jpg" alt="Destination 2"></div>
+                    <div class="card-content">
+                        <h3>尚未开放</h3>
+                        <p>敬请期待</p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-img-box"><img src="images/jqqd.jpg" alt="Destination 1"></div>
+                    <div class="card-content">
+                        <h3>尚未开放</h3>
+                        <p>敬请期待</p>
+                    </div>
+                </div>
+
+                
+                
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 模块3: 数据展示 (层叠视差) -->
+    <section class="section-parallax">
+        <div class="parallax-content">
+            <h2>已加入 669 位少侠</h2>
+            <p>与君同作江湖客，且对青山醉一觞。</p>
+        </div>
+    </section>
+</main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>我有江湖瘾</h3>
+                <p>桃李春风一杯酒，江湖夜雨十年灯</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <a href="index.html">回到首页</a>
+                <a href="guide.html">赏游指南</a>
+                <a href="contact.html">联系我</a>
+            </div>
+            <div class="footer-section">
+                <h3>网站制作人：离春</h3>
+                <p>-站内图文来源皆为官号发布或可商用素材网站</p>
+                <p>-网站内容会根据企划内容更新，个人原因或有延迟</p>
+            </div>
+        </div>；
+        <div class="copyright">
+            &copy; 网址 https://fyfsohyf.github.io/WYJHY/
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
